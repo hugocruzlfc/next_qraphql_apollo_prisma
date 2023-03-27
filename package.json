@@ -1,5 +1,5 @@
 {
-  "name": "apollo-graphql",
+  "name": "apollo-graphql-prisma",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "18.15.7",
+    "@apollo/client": "3.7.10",
+    "@apollo/server": "^4.5.0",
+    "@as-integrations/next": "1.2.0",
+    "@prisma/client": "^4.9.0",
+    "@types/node": "18.11.18",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
+    "eslint-config-next": "13.1.2",
+    "graphql": "^16.6.0",
+    "next": "13.1.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.2"
+    "react-icons": "^4.8.0",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.13",
+    "postcss": "^8.4.21",
+    "prisma": "^4.9.0",
+    "tailwindcss": "^3.2.4"
   }
 }
